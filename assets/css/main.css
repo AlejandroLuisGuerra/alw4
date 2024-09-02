@@ -2723,10 +2723,12 @@ input, select, textarea {
 		-ms-flex-wrap: wrap;
 		flex-wrap: wrap;
 		border-top: 0 !important;
+		
 	}
 
 		.tiles + * {
 			border-top: 0 !important;
+			
 		}
 
 		.tiles article {
@@ -2753,6 +2755,7 @@ input, select, textarea {
 			overflow: hidden;
 			position: relative;
 			width: 40%;
+			
 		}
 
 			.tiles article .image {
@@ -3118,7 +3121,7 @@ input, select, textarea {
 		box-shadow: 0 0 0.25em 0 rgba(0, 0, 0, 0.15);
 		cursor: default;
 		font-weight: 600;
-		height: 3.25em;
+		height: 3.50em;
 		left: 0;
 		letter-spacing: 0.25em;
 		line-height: 3.25em;
@@ -3581,7 +3584,7 @@ input, select, textarea {
 				}
 
 				#banner.major {
-					padding: 8em 0 4em 0 ;
+					padding: 4em 0 2em 0 ;
 				}
 
 		}
