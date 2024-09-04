@@ -2723,7 +2723,7 @@ input, select, textarea {
 		-ms-flex-wrap: wrap;
 		flex-wrap: wrap;
 		border-top: 0 !important;
-		
+
 	}
 
 		.tiles + * {
@@ -2755,6 +2755,7 @@ input, select, textarea {
 			overflow: hidden;
 			position: relative;
 			width: 40%;
+			
 			
 		}
 
@@ -2795,7 +2796,7 @@ input, select, textarea {
 				display: block;
 				height: 100%;
 				left: 0;
-				opacity: 0.85;
+				opacity: 1;
 				position: absolute;
 				width: 100%;
 				z-index: 2;
@@ -2811,6 +2812,7 @@ input, select, textarea {
 				top: 0;
 				width: 100%;
 				z-index: 1;
+				
 			}
 
 			.tiles article:hover:before {
@@ -2826,7 +2828,7 @@ input, select, textarea {
 				-webkit-filter: blur(0.5em);
 				-ms-filter: blur(0.5em);
 				filter: blur(0.5em);
-				opacity: 0;
+				opacity: 1;
 			}
 
 			.tiles article:nth-child(4n - 1), .tiles article:nth-child(4n - 2) {
@@ -2834,27 +2836,27 @@ input, select, textarea {
 			}
 
 			.tiles article:nth-child(6n - 5):before {
-				background-color: #d69e63;
+				background-color: #d2996c;
 			}
 
 			.tiles article:nth-child(6n - 4):before {
-				background-color: #ddab76;
+				background-color: #c37c4d;
 			}
 
 			.tiles article:nth-child(6n - 3):before {
-				background-color: #c5925b;
+				background-color: #b66b3e;
 			}
 
 			.tiles article:nth-child(6n - 2):before {
-				background-color: #e6aa6b;
+				background-color: #be4b32;
 			}
 
 			.tiles article:nth-child(6n - 1):before {
-				background-color: #202020;
+				background-color: #9d2e14;
 			}
 
 			.tiles article:nth-child(6n):before {
-				background-color: #111111;
+				background-color: #190f08;
 			}
 
 		@media screen and (max-width: 1280px) {
@@ -2900,6 +2902,7 @@ input, select, textarea {
 				.tiles article {
 					height: 10em;
 					width: 100% !important;
+
 				}
 
 		}
@@ -2941,7 +2944,7 @@ input, select, textarea {
 			-webkit-flex-direction: row;
 			-ms-flex-direction: row;
 			flex-direction: row;
-			background-color: #171717;
+			background-color: #0c0c0c;
 		}
 
 			.spotlights > section > .image {
@@ -3003,7 +3006,7 @@ input, select, textarea {
 				-webkit-flex-direction: row-reverse;
 				-ms-flex-direction: row-reverse;
 				flex-direction: row-reverse;
-				background-color: #333856;
+				background-color: #995a2f;
 			}
 
 				.spotlights > section:nth-child(2n) > .content {
@@ -3147,7 +3150,7 @@ input, select, textarea {
 				-webkit-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
 				-ms-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
 				transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
-				background-color: #0c0c0c;
+				background-color: #0c0c0c00;
 				color: blanchedalmond;
 				display: inline-block;
 				line-height: 1.65em;
@@ -3498,15 +3501,15 @@ input, select, textarea {
 		}
 
 		#banner.style2:after {
-			background-color: #0c0c0c;
+			background-color: #d2996c;
 		}
 
 		#banner.style3:after {
-			background-color: #ec8d81;
+			background-color: #c37c4d;
 		}
 
 		#banner.style4:after {
-			background-color: #e7b788;
+			background-color: #b66b3e;
 		}
 
 		#banner.style5:after {
